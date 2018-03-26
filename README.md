@@ -228,8 +228,8 @@ map directly to the api: https://docs.microsoft.com/en-us/rest/api/searchservice
 * `filter`: string. Expression that limits documents considered for suggestions
 * `orderby`: string. Used for sorting,
 * `fuzzy`: boolean. Defaults to false. Enables fuzzy matching for suggestions.
-* `highlightPreTag`: string. Opening HTML tag that is applied to matched text ex: <b>
-* `highlightPostTag`: string. Closing HTML tag that is applied to matched text ex: </b>
+* `highlightPreTag`: string. Opening HTML tag that is applied to matched text ex: ```<b>```
+* `highlightPostTag`: string. Closing HTML tag that is applied to matched text ex: ```</b>```
 * `select`: string. Limits the fields retrieved with search request
 * `searchFields`: string. controls which fields to search on a given query
 * `minimumCoverage`: number. Advanced, the percentage of the index that must be covered by a search query
